@@ -1,0 +1,42 @@
+.fizzbuzz, .fizz, .buzz, .none {
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  padding: 5px 10px 15px 10px;
+  margin: 15px 15px 15px 15px;
+  font-style: italic;
+  transition: all.2s ease-in-out;
+}
+
+
+.fizzbuzz {
+  background-color: #000000;
+}
+.fizzbuzz:hover {
+  transform: scale(1.5);
+}
+
+.fizz {
+  background-color: #545454;
+}
+.fizz:hover {
+  transform: scale(1.1);
+}
+.buzz {
+  background-color: #93DB70;
+}
+.buzz:hover {
+  transform: scale(1.1);
+}
+.none {
+  background-color: #CDCDCD;
+}
+.none:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: center;
+}
